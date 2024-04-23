@@ -1,2 +1,57 @@
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 2px;
+  margin: 0 1rem;
+  padding-top: 10px;
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-left: 8px;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
